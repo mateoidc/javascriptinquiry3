@@ -16,9 +16,9 @@ Person.prototype.fetchJob = function () {
 
 Person.prototype.programmer = "Javascript";
 
-var andrew = new Person("Andrew", "Doctor", 54);
-var charlie = new Person("Charlie", "Tik-toker", 16);
-var dixie = new Person("Dixie", "singer", 23);
+const andrew = new Person("Andrew", "Doctor", 54);
+const charlie = new Person("Charlie", "Tik-toker", 16);
+const dixie = new Person("Dixie", "singer", 23);
 
 andrew.fetchJob();
 charlie.fetchJob();
